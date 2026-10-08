@@ -1,0 +1,14 @@
+{
+  "name": "whatscrm",
+  "version": "1.0.0",
+  "private": true,
+  "description": "WhatsApp Cloud API CRM with Flutter Web frontend and Vercel Serverless webhook",
+  "scripts": {
+    "build": "bash vercel-build.sh",
+    "vercel-build": "bash vercel-build.sh",
+    "start": "node server/webhook_server.js"
+  },
+  "engines": {
+    "node": ">=18.x"
+  }
+}
